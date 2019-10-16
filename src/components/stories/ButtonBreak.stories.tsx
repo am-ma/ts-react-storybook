@@ -8,7 +8,7 @@ export default {
 };
 
 export const hoge = () => {
-  const onClick = () => action("clicked: hoge");
+  const onClick = action("clicked: hoge");
 
   return <Button text="hoge" onClick={onClick} />;
 };
